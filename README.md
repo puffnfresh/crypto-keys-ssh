@@ -5,6 +5,8 @@ This is just like
 but not dependent on crypto-pubkey-types nor any specific crypto
 library.
 
+At the moment only supports public RSA keys.
+
 Can be easily used with
 [cryptonite](https://github.com/haskell-crypto/cryptonite) like so:
 
