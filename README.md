@@ -8,8 +8,10 @@ library.
 Can be easily used with
 [cryptonite](https://github.com/haskell-crypto/cryptonite) like so:
 
-    import Crypto.PubKey.SSH (decodeSshPubKey)
-    import Crypto.PubKey.RSA (PublicKey (..))
-    import Data.ByteString.Lazy.Char8 as LBS
+```haskell
+import Crypto.PubKey.SSH (decodeSshPubKey)
+import Crypto.PubKey.RSA (PublicKey (..))
+import Data.ByteString.Lazy.Char8 as LBS
 
-    decodeSshPubKey PublicKey <$> LBS.readFile ".ssh/id_rsa.pub"
+decodeSshPubKey PublicKey <$> LBS.readFile ".ssh/id_rsa.pub"
+```
