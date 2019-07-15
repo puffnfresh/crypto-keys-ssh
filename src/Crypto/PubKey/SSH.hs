@@ -1,5 +1,6 @@
 module Crypto.PubKey.SSH (
-  getSshRsa
+  SshPubKeyError (..)
+, getSshRsa
 , decodeSshPubKey
 ) where
 
