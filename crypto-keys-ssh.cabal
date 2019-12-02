@@ -10,13 +10,12 @@ build-type:          Simple
 extra-source-files:  CHANGELOG.md
 synopsis:            Like crypto-pubkey-openssh but not dependent on any specific crypto library
 description:
-  Just like <https://github.com/knsd/crypto-pubkey-openssh
-  crypto-pubkey-openssh> but not dependent on crypto-pubkey-types nor any
-  specific crypto library.
+  Just like <https://github.com/knsd/crypto-pubkey-openssh crypto-pubkey-openssh>
+  but not dependent on crypto-pubkey-types nor any specific crypto library.
 
 source-repository head
   type: git
-  location: https://github.com/puffresh/crypto-keys-ssh.git
+  location: https://github.com/puffnfresh/crypto-keys-ssh.git
 
 library
   exposed-modules:     Crypto.PubKey.SSH
